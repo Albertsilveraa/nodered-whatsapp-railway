@@ -66,7 +66,7 @@ module.exports = {
             modules: true
         },
         projects: {
-            enabled: true,
+            enabled: false,
             workflow: { mode: "manual" }
         },
         codeEditor: {
