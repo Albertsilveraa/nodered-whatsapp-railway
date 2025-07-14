@@ -4,8 +4,8 @@
 var when = require("when");
 
 // Evita descarga de Chromium y desactiva sandbox (para Railway)
-process.env.PUPPETEER_SKIP_CHROMIUM_DOWNLOAD = "true";
-process.env.NODE_OPTIONS = "--no-sandbox";
+//process.env.PUPPETEER_SKIP_CHROMIUM_DOWNLOAD = "true";
+//process.env.NODE_OPTIONS = "--no-sandbox";
 
 module.exports = {
 
