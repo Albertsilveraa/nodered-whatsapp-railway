@@ -21,6 +21,10 @@
  **/
 
 var when = require("when")
+// Configurar entorno para Puppeteer en Railway
+process.env.PUPPETEER_SKIP_CHROMIUM_DOWNLOAD = "true";
+process.env.NODE_OPTIONS = "--no-sandbox";
+
 
 module.exports = {
 
