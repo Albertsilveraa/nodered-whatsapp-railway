@@ -5,7 +5,7 @@
   "description": "Node-RED package for railway",
   "main": "index.js",
   "scripts": {
-    "start": "node-red -u .",
+  "start": "node-red -u . -H 0.0.0.0",
     "start:dev": "NODE_RED_USERNAME=test NODE_RED_PASSWORD=test node-red --userDir .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,4 +19,4 @@
     "node": ">=20.0.0"
   }
 }
-//oli
+
